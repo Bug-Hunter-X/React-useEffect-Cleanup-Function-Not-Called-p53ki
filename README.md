@@ -1,0 +1,3 @@
+# React useEffect Cleanup Function Not Called
+
+This repository demonstrates an uncommon issue where the cleanup function in a React `useEffect` hook is not called as expected, even when the dependencies are correctly specified. This usually happens when the component unmounts before the cleanup function can execute.  The solution shows how to address this issue by ensuring the cleanup function is called appropriately, even in edge cases.  Note the dependency array in the effect is crucial for controlling when the cleanup and main function run.
